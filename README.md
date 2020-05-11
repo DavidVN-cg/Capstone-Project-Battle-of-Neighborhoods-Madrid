@@ -10,7 +10,39 @@ For this project, we should be able to answer the following question: If someone
 To be able to answer that question, the appropriate approach would be to cluster the city by trending places, and analyze each cluster with statistical data.
 
 ## 2. Data Requirements
-For this project, we will use information provided by Wikipedia in order to retrieve the boroughs and geographical coordinates of each neighboorhood of Madrid. 
+For this project, we will use information provided by Wikipedia in order to retrieve the boroughs and geographical coordinates of each neighboorhood of Madrid. An example of the dataset would be:
+<table>
+    <tr>
+    <th>Borough</th>
+    <th>Neighborhood</th>
+    <th>Latitude</th>
+    <th>Longitude</th>
+  </tr>
+  <tr>
+    <td>Centro</td>
+    <td>Palacio</td>
+    <td>40.415</td>
+    <td>-3.713333</td>
+  </tr>
+  <tr>
+    <td>Centro</td>
+    <td>Embajadores</td>
+    <td>40.408889</td>
+    <td>-3.699722</td>
+  </tr>
+   <tr>
+    <td>Centro</td>
+    <td>Cortes</td>
+    <td>40.414167</td>
+    <td>-3.698056</td>
+  </tr>
+   <tr>
+    <td>Centro</td>
+    <td>Justicia</td>
+    <td>40.423889</td>
+    <td>-3.696389</td>
+  </tr>
+</table>
 
 Then, we will access the Foursquare API features to get information of the top venues in the city, and we will do a clustering to find some common patterns. 
 
