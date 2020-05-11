@@ -1,4 +1,4 @@
-# Capstone-Project-Battle-of-Neighborhoods-Madrid
+# Capstone Project - Battle of Neighborhoods - Madrid (Spain)
 Applied Data Science Capstone final project. Analyzing Madrid's trending venues
 
 
